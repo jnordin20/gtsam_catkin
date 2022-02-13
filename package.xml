@@ -12,4 +12,6 @@
   <buildtool_depend>ninja-build</buildtool_depend>
   
   <depend>eigen_catkin</depend>
+  <depend>boost</depend>
+  
 </package>
