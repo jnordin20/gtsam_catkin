@@ -11,7 +11,8 @@
   <buildtool_depend>catkin_simple</buildtool_depend>
   <buildtool_depend>ninja-build</buildtool_depend>
   
-  <depend>eigen_catkin</depend>
+  <depend>eigen</depend>
   <depend>boost</depend>
+  <depend>tbb</depend>
   
 </package>
