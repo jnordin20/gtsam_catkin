@@ -36,6 +36,9 @@ install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/lib/
 install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/lib/
         DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
         FILES_MATCHING PATTERN "libgtsam*")
+install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/lib/
+        DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+        FILES_MATCHING PATTERN "libmetis-gtsam*")
 
 cs_export(INCLUDE_DIRS ${CATKIN_DEVEL_PREFIX}/include
-          LIBRARIES CppUnitLite gtsam gtsam_unstable tbb)
+          LIBRARIES CppUnitLite gtsam gtsam_unstable tbb metis-gtsam)
